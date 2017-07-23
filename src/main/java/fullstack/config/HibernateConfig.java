@@ -33,7 +33,7 @@ public class HibernateConfig {
         ds.setDriverClassName("com.mysql.jdbc.Driver");
         ds.setUrl("jdbc:mysql://localhost:3360/fullstack");
         ds.setUsername("root");
-        ds.setPassword("root");
+        ds.setPassword("buddybruno");
         return ds;
     }
     private Properties hibernateProperties() {
